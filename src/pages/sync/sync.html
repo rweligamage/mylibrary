@@ -1,0 +1,41 @@
+<ion-header>
+    <ion-navbar color="mygreen">
+        <ion-title>
+            Select books
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list *ngIf="importingList.length > 0">
+        <div *ngFor="let bookObj of importingList" detail-none class="book_item">
+            <div class="itm_content">
+                <div *ngIf="!bookObj.book.coverImage || !bookObj.book.coverImage.type || bookObj.book.coverImage.type !== 'web'" class="img defImg"></div>
+                <div *ngIf="bookObj.book.coverImage && bookObj.book.coverImage.type === 'web'" class="img" [ngStyle]="{'background-image': 'url(' + bookObj.book.coverImage.filePath + ')'}"></div>
+                <div class="txt">
+                    <h2>{{bookObj.book.title}}</h2>
+                    <h3>{{bookObj.book.author}}</h3>
+                    <div class="imprt">
+                        <ion-checkbox [(ngModel)]="bookObj.shouldImport" color="myorange"></ion-checkbox>
+                        <div class="lbl">Import to</div>
+                        <ion-segment [(ngModel)]="bookObj.listType" color="mygreen" [disabled]="!bookObj.shouldImport">
+                            <ion-segment-button value="booklist">
+                                Book List
+                            </ion-segment-button>
+                            <ion-segment-button value="wishlist">
+                                Wish List
+                            </ion-segment-button>
+                        </ion-segment>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="bookObj.duplicateMsg" class="duplicateMsg">** {{bookObj.duplicateMsg}}</div>
+        </div>
+    </ion-list>
+</ion-content>
+
+<ion-footer>
+    <ion-toolbar>
+        <button color="mygreen" ion-button block (click)="importBooksNow()">Import now</button>
+    </ion-toolbar>
+</ion-footer>

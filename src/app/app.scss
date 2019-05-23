@@ -1,0 +1,121 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+//
+// body.platform-ios.platform-cordova.platform-webview {
+//     text-rendering: auto !important;
+// }
+
+// ---header---
+.toolbar-title-md{
+	text-align: center;
+	width: calc(100% - 50px);
+}
+.toolbar-ios ion-title {
+    padding-left: 45px !important;
+    padding-right: 45px !important;
+}
+.min_btn, .back-button{
+    min-width: 40px !important;
+}
+.leftMenu {
+
+    .scroll-content{
+        background-color: $green_2;
+
+        .sidemenu_content{
+            display: flex;
+            height: 100%;
+            justify-content: space-between;
+            flex-direction: column;
+
+            .list{
+                .item{
+                    background-color: transparent;
+                    border-color: rgba(255, 255, 255, .2);
+    
+                    .item-inner{
+                        border-color: rgba(255, 255, 255, .2);
+                        height: 56px;
+                        
+                        ion-label{
+                            line-height: 30px;
+                            display: flex;
+                            align-items: center;
+                            color: white;
+                            white-space: normal;
+        
+                            ion-icon{
+                                font-size: 28px;
+                                min-width: 45px;
+                            }
+                        }
+                    }
+                }
+            }
+            .btm{
+                padding: 16px;
+
+                .itm{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    line-height: 3rem;
+                    font-size: 1.6rem;
+                    border-top: .55px solid rgba(255, 255, 255, .2);
+                    height: 44px;
+
+                    .lbl{
+                        color: $green_1;
+                        span{
+                            color: $orange_1;
+                        }
+                    }
+                    .count{
+                        color: white;
+                        font-weight: 500;
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.my_backdrop_loader{
+    .loading-wrapper{
+        background-color: $green_2;
+        
+        .spinner{
+            height: 40px;
+
+            * {
+                width: 40px;
+                height: 40px;
+                stroke: $orange_1 !important;
+            }
+
+        }
+        .loading-content{
+            margin-left: 40px;
+            font-size: 1.6rem;
+            font-weight: 200;
+            text-transform: uppercase;
+            color: white;
+        }
+    }
+}

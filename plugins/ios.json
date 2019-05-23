@@ -1,0 +1,79 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-advanced-http": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-plugin-camera": {
+            "CAMERA_USAGE_DESCRIPTION": " ",
+            "PHOTOLIBRARY_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-plugin-documentpicker": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-plugin-email-composer": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-plugin-filepicker": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-plugin-ionic-webview": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "CAMERA_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "lk.rcw.library"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-actionsheet": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-plugin-add-swift-support": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "lk.rcw.library"
+        }
+    }
+}

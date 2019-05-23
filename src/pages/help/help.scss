@@ -1,0 +1,44 @@
+page-help {
+    .img{
+        width: 100%;
+        height: 400px;
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+        &.add_book{
+            height: 240px;
+            background-image: url('../assets/imgs/hlp_add.png');
+        }
+        &.book_details{
+            background-image: url('../assets/imgs/hlp_bkdata.png');
+        }
+        &.add_book_cover{
+            height: 240px;
+            background-image: url('../assets/imgs/hlp_change_cover.png');
+        }
+        &.search_results{
+            background-image: url('../assets/imgs/hlp_search_results.png');
+        }
+        &.book_list{
+            background-image: url('../assets/imgs/hlp_book_list.png');
+        }
+        &.export{
+            background-image: url('../assets/imgs/hlp_export.png');
+        }
+        &.import_save{
+            background-image: url('../assets/imgs/hlp_import_save.jpg');
+        }
+        &.import{
+            background-image: url('../assets/imgs/hlp_import.png');
+        }
+        &.wish{
+            height: 280px;
+            background-image: url('../assets/imgs/hlp_wish.png');
+        }
+        &.csv{
+            height: 50px;
+            background-image: url('../assets/imgs/csv.png');
+        }
+    }
+}

@@ -1,0 +1,49 @@
+<ion-menu [content]="mycontent" side="left" id="leftMenu" type="overlay" class="leftMenu" menuClose (ionOpen)="beforeOpeningMenu()">
+    <ion-header>
+        <ion-toolbar color="mygreen">
+            <ion-title>My Books</ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <ion-content>
+        <div class="sidemenu_content">
+            <ion-list>
+                <button ion-item (click)="onClickItem('wishlist')">
+                    <ion-icon name="ios-pricetags-outline" item-start color="myorange"></ion-icon>
+                    Wish list
+                </button>
+                <button ion-item (click)="onClickItem('export')">
+                    <ion-icon name="ios-exit-outline" item-start color="myorange"></ion-icon>
+                    Export my books
+                </button>
+                <button ion-item (click)="onClickItem('import')">
+                    <ion-icon name="ios-download-outline" item-start color="myorange"></ion-icon>
+                    Import more books
+                </button>
+                <button ion-item (click)="onClickItem('help')">
+                    <ion-icon name="ios-help-circle-outline" item-start color="myorange"></ion-icon>
+                    Need help
+                </button>
+                <!-- <button ion-item (click)="onClickItem('sort')">
+                    <ion-icon name="ios-funnel-outline" item-start color="myorange"></ion-icon>
+                    Sort order
+                </button> -->
+            </ion-list>
+            <div class="btm">
+                <div class="itm">
+                    <div class="lbl">Books on
+                        <span>My Book List</span>
+                    </div>
+                    <div class="count">{{countBookList}}</div>
+                </div>
+                <div class="itm">
+                    <div class="lbl">Books on
+                        <span>Wish List</span>
+                    </div>
+                    <div class="count">{{countWishList}}</div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-menu>
+
+<ion-nav [root]="rootPage" #mycontent swipeBackEnabled="false"></ion-nav>

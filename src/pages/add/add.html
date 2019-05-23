@@ -1,0 +1,82 @@
+<ion-header>
+    <ion-navbar color="mygreen">
+        <ion-title>
+            {{ (mode === 'add' ? 'Add' : 'Edit') + " Book"}}
+        </ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only (click)="onClickAddBook()" [disabled]="!book.title" class="min_btn">
+                <ion-icon [name]="mode === 'add' ? 'checkbox-outline' : 'ios-create-outline'"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        <ion-item>
+            <ion-label>ISBN</ion-label>
+            <ion-input type="number" [(ngModel)]="book.isbn"></ion-input>
+        </ion-item>
+        <ion-item class="multiplelines twolines">
+            <ion-label>Title *</ion-label>
+            <ion-textarea [(ngModel)]="book.title"></ion-textarea>
+        </ion-item>
+        <ion-item>
+            <ion-label>Author</ion-label>
+            <ion-input type="text" [(ngModel)]="book.author"></ion-input>
+        </ion-item>
+        <ion-item *ngIf="mode === 'add'" class="btns">
+            <button ion-button icon-right round color="mygreen" (click)="onClickSearch()" class="search_btn" [disabled]="isSearching || (!book.isbn && !book.title && !book.author)">
+                Search on Goodreads
+                <ion-icon name="ios-search" *ngIf="!isSearching"></ion-icon>
+                <ion-spinner name="crescent" *ngIf="isSearching"></ion-spinner>
+            </button>
+            <button ion-button icon-right round color="mygreen" class="scan" (click)="onClickScan()">
+                Scan ISBN
+                <ion-icon name="ios-barcode-outline"></ion-icon>
+            </button>
+        </ion-item>
+        <ion-item *ngIf="mode === 'edit' && from === 'home'">
+            <ion-label>Lent</ion-label>
+            <ion-input type="text" [(ngModel)]="book.lent"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Shelf</ion-label>
+            <ion-input type="text" [(ngModel)]="book.shelf"></ion-input>
+        </ion-item>
+        <ion-item class="multiplelines threelines">
+            <ion-label>Search #</ion-label>
+            <ion-textarea [(ngModel)]="book.searchText"></ion-textarea>
+        </ion-item>
+        <div class="coverImg" (click)="onClickImageAdd()">
+            <div *ngIf="!book.coverImage || !book.coverImage.type" class="img defImg"></div>
+            <div *ngIf="book.coverImage && book.coverImage.type === 'web'" class="img" [ngStyle]="{'background-image': 'url(' + book.coverImage.filePath + ')'}"></div>
+            <div *ngIf="book.coverImage && book.coverImage.type === 'local'" class="img" [ngStyle]="{'background-image': 'url(' + storedImagePath + book.coverImage.filePath + ')'}"></div>
+        </div>
+        <ion-item class="bordrtop">
+            <ion-label>Rating</ion-label>
+            <ion-input type="number" [(ngModel)]="book.rating"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Publisher</ion-label>
+            <ion-input type="text" [(ngModel)]="book.publisher"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Page Count</ion-label>
+            <ion-input type="number" [(ngModel)]="book.pageCount"></ion-input>
+        </ion-item>
+        <ion-item class="multiplelines threelines">
+            <ion-label>Description</ion-label>
+            <ion-textarea [(ngModel)]="book.description"></ion-textarea>
+        </ion-item>
+        <ion-item>
+            <ion-label>Published Year</ion-label>
+            <ion-input type="number" [(ngModel)]="book.year"></ion-input>
+        </ion-item>
+        <button ion-button round round color="danger" *ngIf="mode === 'edit'" (click)="onClickDelete()" class="delete_btn" [disabled]="isSearching">
+            <div>Delete this book</div>
+            <ion-spinner name="crescent" *ngIf="isSearching"></ion-spinner>
+        </button>
+    </ion-list>
+
+</ion-content>

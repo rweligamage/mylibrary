@@ -1,0 +1,91 @@
+page-sync {
+    .book_item{
+        border-bottom: 0.55px solid rgba(0,0,0, .2);
+        padding: 0px 4px 0px 4px;
+
+        .itm_content{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 4px;
+    
+            .checkbox{
+                min-width: 30px;
+                height: 100%;
+            }
+            .img{
+                width: 56px !important;
+                height: 76px !important;
+                background-size: contain;
+                background-position: left center;
+                background-repeat: no-repeat;
+    
+                &.defImg{
+                    background-image: url('../assets/imgs/book.png');
+                }
+            }
+            .txt{
+                width: calc(100% - 56px);
+                padding-left: 5px;
+    
+                h2{
+                    line-height:1.8rem;
+                    white-space: pre-line;
+                    font-size:1.6rem;
+                    color: $dark_4;
+                }
+                h3{
+                    line-height: 1.6rem;
+                    color: $dark_4;
+                    font-size: 1.4rem;
+                    white-space: pre-line;
+                }
+                .imprt{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+    
+                    .lbl{
+                        margin-right: 5px;
+                        font-size: 1.4rem;
+                        font-weight: 500;
+                        color: $dark_1;
+                    }
+                    .segment{
+                        width: 160px;
+                        
+                        .segment-button{
+                            line-height: 2rem;
+                            height: 24px;
+    
+                            &.segment-button-disabled{
+                                opacity: .5;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .duplicateMsg{
+            padding: 5px;
+            color: white;
+            background-color: $red_1;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            margin-top: -10px;
+            font-size: 1.3rem;
+            font-weight: 200;
+        }
+    }
+    .footer{
+        .toolbar{
+            padding: 0;
+
+            button{
+                margin: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,124 @@
+<!--
+  Generated template for the PickupInstructions page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <ion-navbar color="mygreen">
+        <ion-title>Help</ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+    <ion-card>
+        <ion-card-title>Book details</ion-card-title>
+        <div class="book_details img"></div>
+        <ion-card-content>
+            <p>
+                <li>Only 'Title' is mandatory(*) to add a book.</li>
+                <li>'Search #' field will be used to filter/search books using searchbar.</li>
+            </p>
+        </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-card-title>Adding a book</ion-card-title>
+        <div class="add_book img"></div>
+        <ion-card-content>
+            <p>
+                <li>To search on 'Goodreads' you can provide 'ISBN', 'Title', 'Author'</li>
+                <li>First try 'Scan ISBN', if it fails enter it manually and 'Search on Goodreads'.</li>
+                <li>If succeed, book details will be populated.</li>
+                <li>If that fails enter either 'Author' or 'Title' and 'Search on Goodreads'.</li>
+                <li>If this succeed you will be sent to 'Search Results' screen</li>
+                <li>If that fails you have to manually enter the book details</li>
+                <li>Recomending to add at least 'Title','Author' and 'Book Image'</li>
+                <li>Save button is on top right.</li>
+            </p>
+        </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-card-title>Change book cover</ion-card-title>
+        <div class="add_book_cover img"></div>
+        <ion-card-content>
+            <p>
+                <li>To change the book cover click on the DEFAULT book image</li>
+            </p>
+        </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-card-title>Select book from search results</ion-card-title>
+        <div class="search_results img"></div>
+        <ion-card-content>
+            <p>
+                <li>Search results shows matched books by 'Title' or 'Author' you entered</li>
+                <li>Selected book details will be populated on 'Add book' or 'Edit book' screen</li>
+            </p>
+        </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-card-title>My Book list</ion-card-title>
+        <div class="book_list img"></div>
+        <ion-card-content>
+            <p>
+                <li>Swipe enables 'DELETE BOOK' or 'BOOK RETURNED'.</li>
+                <li>If you want to search by english along to native language, update the 'Search #' field with relavant 'Title'
+                    and 'Author'</li>
+            </p>
+        </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-card-title>Email book list</ion-card-title>
+        <div class="export img"></div>
+        <ion-card-content>
+            <p>
+                <li>You can mail your 'BOOK LIST' or 'WISH LIST' to others so they don't have to add the same books you manually entered</li>
+                <li>Images you added manually will also mail along with data file(export.json)</li>
+            </p>
+        </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-card-title>Save files to import</ion-card-title>
+        <div class="import_save img"></div>
+        <ion-card-content>
+            <p>
+                <li>If you are using iPhone save only the export.json file to iCloud</li>
+                <li>All the images has to save on gallery</li>
+                <li>If you are using android, save all the files to gallery.</li>
+            </p>
+        </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-card-title>Import books</ion-card-title>
+        <div class="import img"></div>
+        <ion-card-content>
+            <p>
+                <li>Locate export_books.json file you saved.</li>
+                <li>Select books needs to be imported to which list.</li>
+                <li>Cover image will not be display automatically for books that have manually added book covers. So you have to select the downloaded correct book cover manually from photo gallery and save.</li>
+            </p>
+        </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-card-title>Wish list</ion-card-title>
+        <div class="wish img"></div>
+        <ion-card-content>
+            <p>
+                <li>Once you purchased the book you can move it to 'MY BOOK LIST'</li>
+            </p>
+        </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-card-title>Import from csv file</ion-card-title>
+        <div class="csv img"></div>
+        <ion-card-content>
+            <p>
+                <li>If you have your books on a csv file, make sure you follow these steps </li>
+                <li>Add column name for each column as shown in the image</li>
+                <li>Convert .csv file to .json. You can use online service (https://www.csvjson.com/csv2json) for this.</li>
+            </p>
+        </ion-card-content>
+    </ion-card>
+
+</ion-content>

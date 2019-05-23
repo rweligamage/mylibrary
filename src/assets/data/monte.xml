@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+    <Request>
+        <authentication>true</authentication>
+        <key>
+            <![CDATA[c01oCrpVz1kP0bKjcjuwUg]]>
+        </key>
+        <method>
+            <![CDATA[search_index]]>
+        </method>
+    </Request>
+    <search>
+        <query>
+            <![CDATA[the count of monte cristo]]>
+        </query>
+        <results-start>1</results-start>
+        <results-end>19</results-end>
+        <total-results>272</total-results>
+        <source>Goodreads</source>
+        <query-time-seconds>0.13</query-time-seconds>
+        <results>
+            <work>
+                <id type="integer">391568</id>
+                <books_count type="integer">223</books_count>
+                <ratings_count type="integer">634258</ratings_count>
+                <text_reviews_count type="integer">16895</text_reviews_count>
+                <original_publication_year type="integer">1844</original_publication_year>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.22</average_rating>
+                <best_book type="Book">
+                    <id type="integer">7126</id>
+                    <title>The Count of Monte Cristo</title>
+                    <author>
+                        <id type="integer">4785</id>
+                        <name>Alexandre Dumas</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1309203605m/7126.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1309203605s/7126.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">25519097</id>
+                <books_count type="integer">7</books_count>
+                <ratings_count type="integer">1887</ratings_count>
+                <text_reviews_count type="integer">77</text_reviews_count>
+                <original_publication_year type="integer">1979</original_publication_year>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.38</average_rating>
+                <best_book type="Book">
+                    <id type="integer">440692</id>
+                    <title>The Count of Monte Cristo</title>
+                    <author>
+                        <id type="integer">29005</id>
+                        <name>Mitsu Yamamoto</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">49602334</id>
+                <books_count type="integer">3</books_count>
+                <ratings_count type="integer">331</ratings_count>
+                <text_reviews_count type="integer">21</text_reviews_count>
+                <original_publication_year type="integer">1844</original_publication_year>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.45</average_rating>
+                <best_book type="Book">
+                    <id type="integer">9171873</id>
+                    <title>The Count of Monte Cristo</title>
+                    <author>
+                        <id type="integer">5248</id>
+                        <name>Clare West</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">59879854</id>
+                <books_count type="integer">18</books_count>
+                <ratings_count type="integer">217</ratings_count>
+                <text_reviews_count type="integer">10</text_reviews_count>
+                <original_publication_year type="integer" nil="true"/>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.40</average_rating>
+                <best_book type="Book">
+                    <id type="integer">10317564</id>
+                    <title>The Count of Monte Cristo (The Count of Monte Cristo, part 1 of 3)</title>
+                    <author>
+                        <id type="integer">4785</id>
+                        <name>Alexandre Dumas</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">18538602</id>
+                <books_count type="integer">33</books_count>
+                <ratings_count type="integer">10888</ratings_count>
+                <text_reviews_count type="integer">1679</text_reviews_count>
+                <original_publication_year type="integer">2012</original_publication_year>
+                <original_publication_month type="integer">9</original_publication_month>
+                <original_publication_day type="integer">18</original_publication_day>
+                <average_rating>3.98</average_rating>
+                <best_book type="Book">
+                    <id type="integer">13330922</id>
+                    <title>The Black Count: Glory, Revolution, Betrayal, and the Real Count of Monte Cristo</title>
+                    <author>
+                        <id type="integer">63278</id>
+                        <name>Tom Reiss</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1337693786m/13330922.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1337693786s/13330922.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">41197048</id>
+                <books_count type="integer">3</books_count>
+                <ratings_count type="integer">732</ratings_count>
+                <text_reviews_count type="integer">20</text_reviews_count>
+                <original_publication_year type="integer">1844</original_publication_year>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.20</average_rating>
+                <best_book type="Book">
+                    <id type="integer">1310645</id>
+                    <title>Classics Illustrated: The Count of Monte Cristo</title>
+                    <author>
+                        <id type="integer">61916</id>
+                        <name>Steven Grant</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1297557698m/1310645.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1297557698s/1310645.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">17518149</id>
+                <books_count type="integer">1</books_count>
+                <ratings_count type="integer">122</ratings_count>
+                <text_reviews_count type="integer">17</text_reviews_count>
+                <original_publication_year type="integer" nil="true"/>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.21</average_rating>
+                <best_book type="Book">
+                    <id type="integer">986101</id>
+                    <title>The Count of Monte Cristo</title>
+                    <author>
+                        <id type="integer">3415335</id>
+                        <name>Beatrice Conway</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1293696966m/986101.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1293696966s/986101.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">41392770</id>
+                <books_count type="integer">9</books_count>
+                <ratings_count type="integer">61</ratings_count>
+                <text_reviews_count type="integer">4</text_reviews_count>
+                <original_publication_year type="integer">2015</original_publication_year>
+                <original_publication_month type="integer">6</original_publication_month>
+                <original_publication_day type="integer">29</original_publication_day>
+                <average_rating>4.44</average_rating>
+                <best_book type="Book">
+                    <id type="integer">477331</id>
+                    <title>The Count of Monte Cristo, Volume II (The Count of Monte Cristo #2 of 2)</title>
+                    <author>
+                        <id type="integer">4785</id>
+                        <name>Alexandre Dumas</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">40767929</id>
+                <books_count type="integer">1</books_count>
+                <ratings_count type="integer">124</ratings_count>
+                <text_reviews_count type="integer">8</text_reviews_count>
+                <original_publication_year type="integer" nil="true"/>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.20</average_rating>
+                <best_book type="Book">
+                    <id type="integer">477325</id>
+                    <title>The Count of Monte Cristo (Saddleback Classics)</title>
+                    <author>
+                        <id type="integer">18573</id>
+                        <name>Stephen Feinstein</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">25556269</id>
+                <books_count type="integer">2</books_count>
+                <ratings_count type="integer">122</ratings_count>
+                <text_reviews_count type="integer">30</text_reviews_count>
+                <original_publication_year type="integer">2013</original_publication_year>
+                <original_publication_month type="integer">7</original_publication_month>
+                <original_publication_day type="integer">4</original_publication_day>
+                <average_rating>3.61</average_rating>
+                <best_book type="Book">
+                    <id type="integer">18208294</id>
+                    <title>The Count of Monte Cristo as Retold by Sherlock Holmes</title>
+                    <author>
+                        <id type="integer">6437480</id>
+                        <name>Holy Ghost Writer</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1374642289m/18208294.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1374642289s/18208294.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">25657730</id>
+                <books_count type="integer">9</books_count>
+                <ratings_count type="integer">16</ratings_count>
+                <text_reviews_count type="integer">2</text_reviews_count>
+                <original_publication_year type="integer">2015</original_publication_year>
+                <original_publication_month type="integer">6</original_publication_month>
+                <original_publication_day type="integer">29</original_publication_day>
+                <average_rating>4.25</average_rating>
+                <best_book type="Book">
+                    <id type="integer">556388</id>
+                    <title>The Count of Monte Cristo, Volume V (The Count of Monte Cristo #5 of 5)</title>
+                    <author>
+                        <id type="integer">4785</id>
+                        <name>Alexandre Dumas</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">3276279</id>
+                <books_count type="integer">1</books_count>
+                <ratings_count type="integer">100</ratings_count>
+                <text_reviews_count type="integer">20</text_reviews_count>
+                <original_publication_year type="integer">2008</original_publication_year>
+                <original_publication_month type="integer">11</original_publication_month>
+                <original_publication_day type="integer">11</original_publication_day>
+                <average_rating>3.57</average_rating>
+                <best_book type="Book">
+                    <id type="integer">3241572</id>
+                    <title>Gankutsuou 1: The Count of Monte Cristo</title>
+                    <author>
+                        <id type="integer">1375775</id>
+                        <name>Yura Ariwara</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1434135291m/3241572.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1434135291s/3241572.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">10293</id>
+                <books_count type="integer">1</books_count>
+                <ratings_count type="integer">18</ratings_count>
+                <text_reviews_count type="integer">4</text_reviews_count>
+                <original_publication_year type="integer">1985</original_publication_year>
+                <original_publication_month type="integer">4</original_publication_month>
+                <original_publication_day type="integer">15</original_publication_day>
+                <average_rating>3.94</average_rating>
+                <best_book type="Book">
+                    <id type="integer">7129</id>
+                    <title>Count of Monte Cristo</title>
+                    <author>
+                        <id type="integer">46582</id>
+                        <name>Arnie Jacobson</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1360056631m/7129.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1360056631s/7129.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">17517930</id>
+                <books_count type="integer">2</books_count>
+                <ratings_count type="integer">13</ratings_count>
+                <text_reviews_count type="integer">1</text_reviews_count>
+                <original_publication_year type="integer" nil="true"/>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.23</average_rating>
+                <best_book type="Book">
+                    <id type="integer">8296018</id>
+                    <title>The Count of Monte Cristo</title>
+                    <author>
+                        <id type="integer">168449</id>
+                        <name>Karen Kelly</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">17518137</id>
+                <books_count type="integer">1</books_count>
+                <ratings_count type="integer">22</ratings_count>
+                <text_reviews_count type="integer">2</text_reviews_count>
+                <original_publication_year type="integer" nil="true"/>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.14</average_rating>
+                <best_book type="Book">
+                    <id type="integer">6148177</id>
+                    <title>The Count of Monte Cristo</title>
+                    <author>
+                        <id type="integer">127600</id>
+                        <name>Susan Shwartz</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">27345646</id>
+                <books_count type="integer">3</books_count>
+                <ratings_count type="integer">12</ratings_count>
+                <text_reviews_count type="integer">3</text_reviews_count>
+                <original_publication_year type="integer">2013</original_publication_year>
+                <original_publication_month type="integer">10</original_publication_month>
+                <original_publication_day type="integer">28</original_publication_day>
+                <average_rating>3.67</average_rating>
+                <best_book type="Book">
+                    <id type="integer">19296765</id>
+                    <title>The Vampire Count of Monte Cristo</title>
+                    <author>
+                        <id type="integer">489201</id>
+                        <name>Matthew Baugh</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1386536767m/19296765.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1386536767s/19296765.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">21427303</id>
+                <books_count type="integer">11</books_count>
+                <ratings_count type="integer">440</ratings_count>
+                <text_reviews_count type="integer">126</text_reviews_count>
+                <original_publication_year type="integer">2012</original_publication_year>
+                <original_publication_month type="integer">7</original_publication_month>
+                <original_publication_day type="integer">2</original_publication_day>
+                <average_rating>4.23</average_rating>
+                <best_book type="Book">
+                    <id type="integer">15740918</id>
+                    <title>The Sultan of Monte Cristo (Sequels to the Count of Monte Cristo, #1)</title>
+                    <author>
+                        <id type="integer">6437480</id>
+                        <name>Holy Ghost Writer</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1341871582m/15740918.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1341871582s/15740918.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">21730231</id>
+                <books_count type="integer">1</books_count>
+                <ratings_count type="integer">48</ratings_count>
+                <text_reviews_count type="integer">10</text_reviews_count>
+                <original_publication_year type="integer">2012</original_publication_year>
+                <original_publication_month type="integer">8</original_publication_month>
+                <original_publication_day type="integer">1</original_publication_day>
+                <average_rating>4.04</average_rating>
+                <best_book type="Book">
+                    <id type="integer">15978558</id>
+                    <title>The Count of Monte Cristo. Alexandre Dumas</title>
+                    <author>
+                        <id type="integer">5415867</id>
+                        <name>Rob Nudds</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1356498304m/15978558.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1356498304s/15978558.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">25653863</id>
+                <books_count type="integer">4</books_count>
+                <ratings_count type="integer">4</ratings_count>
+                <text_reviews_count type="integer">0</text_reviews_count>
+                <original_publication_year type="integer">2013</original_publication_year>
+                <original_publication_month type="integer">9</original_publication_month>
+                <original_publication_day type="integer">2</original_publication_day>
+                <average_rating>3.75</average_rating>
+                <best_book type="Book">
+                    <id type="integer">21543945</id>
+                    <title>The Count of Monte Cristo (Wild and Wanton #2)</title>
+                    <author>
+                        <id type="integer">6585416</id>
+                        <name>Monica Corwin</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1395693712m/21543945.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1395693712s/21543945.jpg</small_image_url>
+                </best_book>
+            </work>
+        </results>
+    </search>
+</GoodreadsResponse>

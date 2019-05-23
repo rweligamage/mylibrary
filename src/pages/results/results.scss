@@ -1,0 +1,42 @@
+page-results {
+	.itm_content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        .img{
+            width: 56px !important;
+            height: 76px !important;
+            background-size: contain;
+            background-position: left center;
+            background-repeat: no-repeat;
+
+            &.defImg{
+                background-image: url('../assets/imgs/book.png');
+            }
+        }
+        .right{
+            width: calc(100% - 56px);
+            padding-left: 5px;
+
+            h2{
+                line-height:2.4rem;
+                white-space: pre-line;
+            }
+            h3{
+                line-height: 2.0rem;
+                color: $dark_4;
+                font-size: 1.4rem;
+                white-space: pre-line;
+            }
+            p{
+                line-height: 2.0rem;
+                color: $dark_4;
+                // text-align: right;
+                font-size: 1.4rem;
+            }
+        }
+    }
+}

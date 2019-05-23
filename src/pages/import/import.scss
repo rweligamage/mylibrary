@@ -1,0 +1,84 @@
+page-import {
+    .spin{
+        width: 100%;
+        height: calc(100vh - 44px);
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+
+        ion-spinner{
+            margin: 0 auto;
+            display: block;
+            height: 60px;
+    
+            * {
+                width: 40px;
+                height: 40px;
+                stroke: $green_1 !important;
+            }
+        }
+        .txt{
+            color: $dark_1;
+            font-family: 'Ubuntu';
+            text-align: center;
+            font-weight: 200;
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .empty{
+            font-size: 1.4rem;
+            color: $dark_2;
+            line-height: 2.0rem;
+            font-weight: 200;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0 auto;
+
+            .hdr{
+                text-align: center;
+            }
+
+            .sample{
+                width: 100%;
+                background-size: contain;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+            .json{
+                margin-top: 10px;
+                height: 280px;
+                background-image: url('../assets/imgs/json.png');
+            }
+            .csv{
+                height: 80px;
+                background-image: url('../assets/imgs/csv.png');
+            }
+            .a_btn{
+                display: contents;
+            }
+
+            .btn{
+                text-align: center;
+                margin-top: 10px;
+
+                button{
+                    ion-spinner{
+                        margin: 0 auto;
+                        display: block;
+                        height: 44px;
+                
+                        * {
+                            margin-top: 5px;
+                            width: 30px;
+                            height: 30px;
+                            stroke:  white !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

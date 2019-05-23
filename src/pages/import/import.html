@@ -1,0 +1,27 @@
+<ion-header>
+    <ion-navbar color="mygreen">
+        <ion-title>
+            Import books
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <div class="spin">
+        <div class="empty">
+            <div class="hdr">Only .json file can be imported.</div>
+            <div class="hdr">If it's a .csv file, convert it to .json first. You can use (https://www.csvjson.com/csv2json) online service.</div>
+            <div class="sample csv"></div>
+            <div class="hdr">Only the 'title' is mandatory.</div>
+            <div class="sample json"></div>
+            <div class="btn">
+                <button ion-button icon-right round color="mygreen" (click)="onClickSelectFile()" [disabled]="isProcessing">
+                    {{isProcessing ? 'PLEASE WAIT...' : 'Select .json File'}}
+                    <ion-icon name="ios-search-outline" *ngIf="!isProcessing"></ion-icon>
+                    <ion-spinner name="crescent" *ngIf="isProcessing"></ion-spinner>
+                </button>
+            </div>
+        </div>
+    </div>
+</ion-content>
+

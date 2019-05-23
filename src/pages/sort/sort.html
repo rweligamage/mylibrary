@@ -1,0 +1,14 @@
+<ion-header>
+    <ion-navbar color="mygreen">
+        <ion-title>
+            Sort order
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list reorder="true" (ionItemReorder)="reorderItems($event)" side="start">
+        <ion-item *ngFor="let item of items">{{ item }}</ion-item>
+    </ion-list>
+</ion-content>
+

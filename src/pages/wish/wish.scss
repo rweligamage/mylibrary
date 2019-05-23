@@ -1,0 +1,132 @@
+page-wish {
+    .spin{
+        position: absolute;
+        width: 100%;
+        bottom: calc(50% - 45px) ;
+        text-align: center;
+    
+        ion-spinner{
+            margin: 0 auto;
+            display: block;
+            height: 60px;
+    
+            * {
+                width: 40px;
+                height: 40px;
+                stroke: $green_1 !important;
+            }
+        }
+        
+        .txt{
+            color: $dark_1;
+            font-family: 'Ubuntu';
+            text-align: center;
+            font-weight: 200;
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .empty{
+            font-size: 1.8rem;
+            color: $dark_2;
+            line-height: 3.0rem;
+            font-weight: 200;
+            
+            .bookimg{
+                width: 60%;
+                background-size: contain;
+                background-position: center center;
+                background-repeat: no-repeat;
+                height: 150px;
+                background-image: url('../assets/imgs/book.png');
+                margin: 0 auto;
+            }
+            .tx{
+                span{
+                    font-weight: 500;
+                    font-weight: $green_2;
+                }
+            }
+        }
+    }
+    ion-item-sliding{
+        background-color: transparent !important;
+
+        .item{
+            .label{
+                margin: 5px 8px 5px 0;
+                .itm_content{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+            
+                    .img{
+                        width: 56px !important;
+                        height: 76px !important;
+                        background-size: contain;
+                        background-position: left center;
+                        background-repeat: no-repeat;
+            
+                        &.defImg{
+                            background-image: url('../assets/imgs/book.png');
+                        }
+                    }
+                    .right{
+                        width: calc(100% - 56px);
+                        padding-left: 5px;
+            
+                        h2{
+                            line-height:2.4rem;
+                            white-space: pre-line;
+                        }
+                        h3{
+                            line-height: 2.0rem;
+                            color: $dark_4;
+                            font-size: 1.4rem;
+                            white-space: pre-line;
+                        }
+                        p{
+                            line-height: 2.0rem;
+                            color: $dark_4;
+                            // text-align: right;
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+        }
+        .option_itm{
+            border-bottom: 0px !important;
+            height: 100% !important;
+            width: 100px !important;
+
+            .btn_group{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+                div{
+                    flex: 1;
+                    width: 100%;
+                    background-color: $orange_1;
+
+                    &.delete{
+                        background-color: red;
+                    }
+                    button{
+                        text-transform: uppercase;
+                        font-size: 1.4rem;
+                        padding: 0 5px;
+                        width: 100%;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    ion-searchbar{
+        min-height: 36px !important;
+    }
+}

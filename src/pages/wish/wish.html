@@ -1,0 +1,57 @@
+<ion-header>
+    <ion-navbar color="mygreen">
+        <ion-title>
+            Wish list
+        </ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only (click)="onClickAddBook()" class="min_btn">
+                <ion-icon name="add"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list *ngIf="wishBooks && wishBooks.length > 0">
+        <ion-item-sliding *ngFor="let book of wishBooks; trackBy: trackByVal">
+            <ion-item (click)="onClickBook(book)">
+                <div class="itm_content">
+                    <div *ngIf="!book.coverImage || !book.coverImage.type" class="img defImg"></div>
+                    <div *ngIf="book.coverImage && book.coverImage.type === 'web'" class="img" [ngStyle]="{'background-image': 'url(' + book.coverImage.filePath + ')'}"></div>
+                    <div *ngIf="book.coverImage && book.coverImage.type === 'local'" class="img" [ngStyle]="{'background-image': 'url(' + storedImagePath + book.coverImage.filePath + ')'}"></div>
+                    <div class="right">
+                        <h2>{{book.title}}</h2>
+                        <h3>{{book.author}}</h3>
+                    </div>
+                </div>
+            </ion-item>
+            <ion-item-options side="right" class="option_itm">
+                <div class="btn_group">
+                    <div class="purchased">
+                        <button ion-button clear (click)="onClickPurchased(book)">
+                            Purchased
+                        </button>
+                    </div>
+                    <div class="delete">
+                        <button ion-button clear (click)="onClickDelete(book)">
+                            Delete
+                        </button>
+                    </div>
+                </div>
+
+            </ion-item-options>
+        </ion-item-sliding>
+    </ion-list>
+
+    <div class="spin">
+        <div *ngIf="!wishBooks || wishBooks.length === 0" class="empty">
+            <div class="bookimg"></div>
+            <div class="tx">Your <span>wish list</span> is empty.</div>
+            <div class="tx">Press + button on the top</div>
+            <div class="tx">to add new books.</div>
+        </div>
+    </div>
+</ion-content>
+
+
+<!-- (ionDrag)="onDragBook($event, book)" -->
